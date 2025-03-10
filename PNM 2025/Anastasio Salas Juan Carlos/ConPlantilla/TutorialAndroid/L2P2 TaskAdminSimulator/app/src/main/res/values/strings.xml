@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TaskAdminSimulator</string>
+    <string name="notification_text">All task completed</string>
+    <string name="encouregement_text">Nice work!</string>
+</resources>

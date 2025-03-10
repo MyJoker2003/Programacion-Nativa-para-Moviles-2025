@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OriginalGreetingCard</string>
+    <string name="name_text">Juan Carlos Anastasio Salas</string>
+    <string name="title_text">Estudiante Ing. Sistemas Computacionales</string>
+    <string name="phone_number">+52 (833) 430 2082</string>
+    <string name="media_id_text">\@LittleMaster</string>
+    <string name="email_text">anastasio.juan@gmai.com</string>
+</resources>
