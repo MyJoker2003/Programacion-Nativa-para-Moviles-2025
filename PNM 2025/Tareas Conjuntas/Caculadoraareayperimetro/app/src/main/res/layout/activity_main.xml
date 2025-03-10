@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_figura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una figura:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_rectangulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rectángulo"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_circulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Círculo"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base (m):"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/et_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingresa la base"/>
+
+    <TextView
+        android:id="@+id/tv_altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura (m):"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingresa la altura"/>
+
+    <TextView
+        android:id="@+id/tv_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio (m):"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingresa el radio"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
